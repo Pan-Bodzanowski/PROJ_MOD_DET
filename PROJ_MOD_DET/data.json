@@ -1,0 +1,16 @@
+{
+    "thermal_conductivity": 0.025, 
+    "air_density": 1.225,
+    "specific_heat_capacity": 1005,
+    "heater_power": 500,
+    "heater_placement": [0.2, 1],
+    "heater_dimensions": [0.05, 0.4],
+    "room_dimensions": [5, 2.5],
+    "window_temperature": [5, 15],
+    "window_position": [0.5, 1.7],
+    "initial_temperature": 18,
+    "space_step": 0.1,
+    "time_step": 0.01,
+    "simulation_time": 180,
+    "animation_step": 100
+}
