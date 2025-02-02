@@ -103,6 +103,7 @@ class Simulation:
             if t % self.params["animation_step"] == 0 or t == self.t_steps - 1:
                 self.snapshots.append(self.room.temperature.copy())
 
+        if t * self.dt < offstart or t * self.dt >= offend:
             self.total_energy += self.heater.calculate_heating_energy()
 
     def animate(self):
